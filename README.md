@@ -5,18 +5,7 @@
 
 Here’s an overview of the project structure:
 
-Machine Learning: Water Quality Prediction Project/
-│
-├── README.md                    # Project description
-├── data/                        # Folder to store your dataset 
-│   └── water_quality.csv        # The dataset
-├── notebooks/                   # Colab notebook
-│   └── water_quality_analysis.ipynb   # The code you ran in Google Colab
-├── src/                         # Optional: For scripts if you want to separate code
-│   └── data_preprocessing.py    # Data preprocessing script, if applicable
-│   └── model_training.py        # Model training script
-├── requirements.txt             # List of dependencies (for installing via pip)
-└── .gitignore                   # Ignore unnecessary files (e.g., datasets)
+Machine_Learning: Water Quality Prediction Project/ │ ├── README.md # Project description ├── data/ # Folder to store your dataset │ └── water_quality.csv # The dataset ├── notebooks/ # Colab notebook │ └── water_quality_analysis.ipynb # The code you ran in Google Colab ├── src/ # Optional: For scripts if you want to separate code │ └── data_preprocessing.py # Data preprocessing script, if applicable │ └── model_training.py # Model training script ├── requirements.txt # List of dependencies (for installing via pip) └── .gitignore # Ignore unnecessary files (e.g., datasets)
 
 
 ## 1. Project description
