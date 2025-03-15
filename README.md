@@ -20,7 +20,6 @@ your-project/
 
 
 
-
 ## 1. Project description
 This project aims to predict the potability of water based on various physiochemical properties. It involves data preprocessing, exploratory data analysis, feature engineering, model training, and evaluation to classify water as potable (safe to drink) or not.
 
