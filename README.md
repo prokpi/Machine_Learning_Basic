@@ -18,7 +18,7 @@ your-project/
 ├── requirements.txt             # List of dependencies (for installing via pip)
 └── .gitignore                   # Ignore unnecessary files (e.g., datasets)
 
-your-project/ │ ├── README.md # Project description (your improved markdown file) ├── data/ # Folder to store your dataset (if not too large) │ └── water_quality.csv # The dataset ├── notebooks/ # Folder to store your Jupyter Notebooks or Colab notebooks │ └── water_quality_analysis.ipynb # The code you ran in Google Colab ├── src/ # Optional: For scripts if you want to separate code │ └── data_preprocessing.py # Data preprocessing script, if applicable │ └── model_training.py # Model training script ├── requirements.txt # List of dependencies (for installing via pip) └── .gitignore # Ignore unnecessary files (e.g., datasets)
+'''your-project/ │ ├── README.md # Project description (your improved markdown file) ├── data/ # Folder to store your dataset (if not too large) │ └── water_quality.csv # The dataset ├── notebooks/ # Folder to store your Jupyter Notebooks or Colab notebooks │ └── water_quality_analysis.ipynb # The code you ran in Google Colab ├── src/ # Optional: For scripts if you want to separate code │ └── data_preprocessing.py # Data preprocessing script, if applicable │ └── model_training.py # Model training script ├── requirements.txt # List of dependencies (for installing via pip) └── .gitignore # Ignore unnecessary files (e.g., datasets)'''
 
 
 ## 1. Project description
