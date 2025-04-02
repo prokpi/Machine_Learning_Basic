@@ -36,16 +36,14 @@ The dataset is sourced from **Water Potability Dataset** on Kaggle: [Water Potab
 
 ## Methodology
 1. **Data Preprocessing**
-   - Handled missing values using [Imputation Strategy]
-   - Scaled numerical features using [Scaling Method]
-2. **Exploratory Data Analysis (EDA)**
+   - Handled missing values using **Imputation Strategy**
+   - Scaled numerical features using **Min-Max Normalization** 
    - Visualized feature distributions and correlations
    - Checked class imbalance in potability
 3. **Model Selection & Training**
    - Tried models:
      - Logistic Regression
      - Random Forest
-     - [Any other models used]
    - Tuned hyperparameters using GridSearchCV
 4. **Evaluation**
    - Assessed models using Accuracy, Precision, Recall, and F1-score
@@ -64,24 +62,27 @@ The dataset is sourced from **Water Potability Dataset** on Kaggle: [Water Potab
 - Logistic Regression is underperforming and likely not suitable for this dataset due to assumption of linearity
 
 ## Challenges & Future Improvements
-- Improve data preprocessing (e.g., advanced imputation techniques)
 - Try feature engineering to extract more meaningful variables
 - Experiment with ensemble methods or deep learning models
-- Address class imbalance using techniques like SMOTE
-
 
 ## How to Run the Code
 1. Clone this repository:
    ```bash
-   git clone https://github.com/prokpi/water_quality_prediction.git
+   !git clone https://github.com/prokpi/Machine_Learning_Basic.git
+)
    ```
-2. Install dependencies:
+2. Navigate to the project folder:
    ```bash
-   pip install -r requirements.txt
+   %cd Machine_Learning_Basic
    ```
-3. Run the script:
+3. Install dependencies:
    ```bash
-   python water_try.py
+   !pip install -r requirements.txt
+   ```
+4. Run the notebook:
+   ```bash
+   In Google Colab, you can open the notebook
+   Paste the GitHub URL https://github.com/prokpi/Machine_Learning_Basic and select water_potability_analysis.ipynb
    ```
 
 ## Technologies and Tools
