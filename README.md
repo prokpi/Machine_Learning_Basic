@@ -69,7 +69,6 @@ The dataset is sourced from **Water Potability Dataset** on Kaggle: [Water Potab
 1. Clone this repository:
    ```bash
    !git clone https://github.com/prokpi/Machine_Learning_Basic.git
-)
    ```
 2. Navigate to the project folder:
    ```bash
@@ -81,7 +80,7 @@ The dataset is sourced from **Water Potability Dataset** on Kaggle: [Water Potab
    ```
 4. Run the notebook:
    ```bash
-   In Google Colab, you can open the notebook
+   #In Google Colab open the notebook
    Paste the GitHub URL https://github.com/prokpi/Machine_Learning_Basic and select water_potability_analysis.ipynb
    ```
 
@@ -92,13 +91,6 @@ The dataset is sourced from **Water Potability Dataset** on Kaggle: [Water Potab
     - Data Visualization: matplotlib, seaborn
     - Machine Learning: scikit-learn
     - Metrics: classification_report, confusion_matrix, roc_auc_score
-
-## Dependencies
-- Python 3.x
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib/Seaborn (for visualization)
 
 ## Acknowledgments
 - **Dataset:** [Water Potability Dataset on Kaggle](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
