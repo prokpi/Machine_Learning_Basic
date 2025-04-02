@@ -8,7 +8,7 @@ Machine_Learning/
 ├── README.md                    # Project description 
 ├── data/                        
 │   └── water_quality.csv        # The dataset
-├── notebooks/                   
+├── notebook/                   
 │   └── water_quality_analysis.ipynb   # The code that was ran in Google Colab
 └── requirements.txt             # List of dependencies (for installing via pip)
 ```
