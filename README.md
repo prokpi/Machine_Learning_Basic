@@ -51,20 +51,24 @@ The dataset is sourced from **Water Potability Dataset** on Kaggle: [Water Potab
    - Assessed models using Accuracy, Precision, Recall, and F1-score
 
 ## Results
-[Summarize model performance, key observations, and potential issues]
 
-- Best model: **[Insert Best Model]**
-- Accuracy: **[Insert Accuracy]**
-- Key challenges:
-  - **Imbalanced data?** (If yes, mention any handling techniques used)
-  - **Model overfitting/underfitting?**
-  - **Feature importance insights?**
+- Best model: **Grid Search with Random Forest**
+- Accuracy: **66.31%**
+- Key observations:
+  - The Random Forest model shows reasonable precision and recall for both classes but struggles with predicting **class 1 (potable)** with lower **recall (33%)**
+  - The Grid Search seems to **improve precision and recall slightly for class 0**, but the performance for **class 1** is still lacking in **recall (43%)**
+  - **Logistic Regression** has the **lowest accuracy (53.81%)** and also the least effective performance on class 1. The precision for class 1 is lower (43%), and recall for class 0 is decent (65%) but significantly lower than in Random Forest models
+ 
+## Conclusions
+- Random Forest seems to be the best-performing model in this scenario, although improvements are needed, especially in recall for class 1 (non-potable water)
+- Logistic Regression is underperforming and likely not suitable for this dataset due to assumption of linearity
 
 ## Challenges & Future Improvements
 - Improve data preprocessing (e.g., advanced imputation techniques)
 - Try feature engineering to extract more meaningful variables
 - Experiment with ensemble methods or deep learning models
 - Address class imbalance using techniques like SMOTE
+
 
 ## How to Run the Code
 1. Clone this repository:
